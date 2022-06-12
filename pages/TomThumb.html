@@ -1,0 +1,50 @@
+<div>
+    <h1  class="Content__title">
+        Tom Thumb
+    </h1>
+    <div class="Content__container">
+      <form id="madLibsFormId" class="Content__form">
+        <div class="Content__input-wrapper">
+          <label class="Content__input-title">
+            Image width (px)
+          </label>
+          <input
+            class="Content__input"
+            type="number"
+            id="width"
+            value='100'
+            />
+        </div>
+        <div class="Content__input-wrapper">
+          <label class="Content__input-title">
+            Image height (px)
+          </label>
+          <input
+            class="Content__input"
+            type="number"
+            id="height"
+            value='80'
+            />
+        </div>
+        <div class="Content__input-wrapper">
+          <label class="Content__input-title">
+            Number of colors
+          </label>
+          <input
+            class="Content__input"
+            type="number"
+            id="colors"
+            value='4'
+            />
+        </div>
+        <button
+            id="tomThumbSubmitBtn"
+            class="Content__button"
+          >
+            Calculate File Size
+          </button>
+      </form>
+      <div class="file-size-calculation"></div>
+    </div>
+    <script src="../index.js"></script>
+  </div>
